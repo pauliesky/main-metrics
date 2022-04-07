@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.black{
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bs-mid{
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: whitesmoke;
+  opacity: .8;
+  padding: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  padding: 2rem;
+  border-radius: .25rem;
+  background: white;
+}
+
+.flex {
   display: flex;
+  flex-direction: row;
+}
+
+.items-start{
+  align-items: flex-start;
+}
+
+.flex-col{
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.dim{
+  opacity: .5;
+}
+
+.border-none{
+  border: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.grid-1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  /* background: red; */
+}
+
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  /* background: red; */
+}
+
+.w-full{
+  width: 100%;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.bullet{
+  height: .9rem;
+  width: .9rem;
+  min-height: .8rem;
+  min-width: .8rem;
+  border-radius: 50%;
+  padding: .25rem;
+  margin-top: .25rem;
+  margin-right: .5rem;
+}
+
+.square{
+  height: .8rem;
+  width: .8rem;
+  border-radius: .25rem;
+  padding: .25rem;
+  margin-top: .25rem;
+  margin-right: .5rem;
+}
+
+.lemon-green{
+  background-color: rgb(16, 184, 50);
+}
+
+.yellow{
+  background:orange;
+}
+
+.slateblue{
+  background: slateblue;
+}
+
+.royalblue{
+  background: rgb(67, 154, 213);
+}
+
+.gray{
+  background: rgb(189, 180, 180);
+}
+
+.pp5{
+  padding: .5rem;
+}
+
+.mtp5{
+  margin-top: .5rem;
+}
+
+.medium{
+  font-size: 15px;
+}
+
+.small{
+  font-size: 12px;
+}
+
+.mlp5{
+  margin-left: .5rem;
+}
+
+.tag{
+  border-radius: 3rem;
+  margin: 0 1rem;
+  font-size: 12px;
   color: white;
+  padding: .2rem;
+  align-self: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.red{
+  color: rgba(255, 0, 0, 0.767);
+}
+
+.bgred{
+  background: rgba(255, 0, 0, 0.767);
+}
+
+
+@media screen and (min-width: 640px) {
+  
 }

@@ -1,0 +1,12 @@
+.colors div{
+  border-right: 1px solid white;
+  border-radius: .2rem;
+}
+
+.details {
+  margin-bottom: 2rem;
+}
+
+.colors{
+  margin: 1rem 0;
+}
